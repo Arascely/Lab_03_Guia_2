@@ -6,7 +6,7 @@ var products = [
  { id: 3, name: 'Teclado Mecánico', price: -50 },
  { id: 4, name: 'Monitor LG',price: undefined },
 ]
-// Busca un producto por ID
+// Busca un producto por IDoerewr
 function getProductById(id) {
  var result = null;
  for (var i = 0; i < products.length; i++) {
