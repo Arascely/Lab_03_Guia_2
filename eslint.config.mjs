@@ -1,13 +1,20 @@
 import js from "@eslint/js";
+import globals from "globals";
 
 export default [
     js.configs.recommended,
     {
+        languageOptions: {
+            ecmaVersion: 2021,
+            sourceType: "module",
+            globals: {
+                ...globals.node, 
+            }
+        },
         rules: {
-            "eqeqeq": "error",         // [cite: 209, 219]
-            "no-var": "warn",          // [cite: 210, 219]
-            "no-unused-vars": "warn",  // [cite: 213, 219]
-            "prefer-const": "warn"     // [cite: 216, 219]
+            "eqeqeq": "error",
+            "no-var": "warn",
+            "prefer-const": "warn"
         }
     }
 ];

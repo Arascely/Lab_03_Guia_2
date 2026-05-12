@@ -1,3 +1,5 @@
+
+
 C:\Users\HP\Proyectos_2026\segundo_lab\Lab_03_Guia_2\cdc\Products.js
    3:1   warning  Unexpected var, use let or const instead  no-var
   11:2   warning  Unexpected var, use let or const instead  no-var
