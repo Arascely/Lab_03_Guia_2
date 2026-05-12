@@ -1,0 +1,25 @@
+{
+  "name": "lab_03_guia_2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "lint": "eslint cdc/Products.js",
+  "lint:fix": "eslint cdc/Products.js --fix"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arascely/Lab_03_Guia_2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Arascely/Lab_03_Guia_2/issues"
+  },
+  "homepage": "https://github.com/Arascely/Lab_03_Guia_2#readme",
+  "devDependencies": {
+    "eslint": "^9.0.0"
+  }
+}
